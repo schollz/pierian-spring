@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Title</title>
+
+  <link rel="stylesheet" href="/static/css/main.css">
+
+</head>
+
+
+  <body>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for key in data.keys() %}
+      <li>
+        <span class="post-meta">{{ data[key]['created_utc'] }}</span><span style="float: right; padding-right: 50px;"></span>
+        <h2>
+          <span class="post-link"><a  href="javascript:ReverseDisplay('{{ key }}')">{{ data[key]['title'] }}</a> </span>
+        </h2>
+		<div id="{{ key }}"style="display:none;">
+		<p>{{ data[key]['selftext'] }}</p>
+		</div>
+      </li>
+{% endfor %}
+  </ul>
+
+
+</div>
+
+<script type="text/javascript" language="JavaScript">
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+</script>
+
+
+      </div>
+    </div>
+
+
+  </body>
+
+</html>

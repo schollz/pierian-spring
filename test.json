@@ -1,0 +1,644 @@
+{
+    "2vnvh7": {
+        "title": "Darwin Day Feature: \"Nothing in Biology Makes Sense Except in the Light of Evolution\" \u2014 Dobzhansky", 
+        "selftext": "**Happy 206^th Birthday, Charles Darwin!**\n\nThere''s no question about it: modern biology is built on evolution. From genetics to paleontology, evolution \u2013 and particularly evolution by natural selection \u2013 has made an indelible mark on our field.\n\nOur experts will be here to discuss the impacts Darwin''s work has had on their areas of expertise.", 
+        "subreddit": "askscience", 
+        "created_utc": 1423757657, 
+        "ups": 2707, 
+        "downs": 0, 
+        "comments": [
+            {
+                "body": "**From Watson and Crick to Darwin**\n\nIt''s easy to forget, in 2015, just how much we know. Every 10 year old in the United States has heard the phrase \"survival of the fittest,\" and every 13 year old knows that children inherit the genes of their parents after their parents [CENSORED]. Of course organisms fight to survive and pass on their genes, and of course this is based on the transfer of DNA from parent to offspring. Of course, of course, *of course*. \n\nBut Darwin didn''t know anything about genes. He didn''t know about DNA and he didn''t know about genetic inheritance, since the work of Gregor Mendel was then still not known. I think this underscores the level of Darwin''s genius -- I find it hard to believe that I would be able to ride a boat around the world, look at some birds (I''m paraphrasing), and come up with, well, *natural selection*, without already knowing what I know. But, how do we know all that we know about genes and DNA? Is there a direct link between, say, the work of Watson/Crick, arguably the crowning achievement of 20th century biology, and Darwin? \n\nJames Watson and Francis Crick, as you may know, made their names by elucidating the structure of DNA -- the famous \"double helix.\" They, also famously, ended their first paper with a nod towards the double helix easily suggesting a way to copy DNA for the purpose of passing it on. This potential copying mechanism would, of course, facilitate the passing of the fittest DNA. But why were they chasing DNA''s structure in the first place? Well, at the time of the double helix papers in 1953, DNA''s importance as the genetic material was still relatively new. This was definitively shown by two sets of experiments. In 1944, Oswald Avery and his colleagues showed that if you mixed a deadly form of *Streptococcus* (similar to the \"strep\" in \"strep throat\") with an innocuous form, the innocuous form all of a sudden became deadly. They got the same result if they mixed the deadly bacteria''s DNA with the innocuous bacteria, but not if they mixed protein in. In 1952, Alfred Hershey and Martha Chase showed that if you infected cells with viruses carrying either radioactive DNA or radioactive protein, only the radioactive DNA got into the cell. Hershey won a Nobel Prize for this work but not Chase because in the ''50s being a female scientist was like being one of those dogs that wears a tutu and stands on its hind legs. \n\nBut why did they need to prove that DNA was the genetic material? Well, before Avery and Hershey/Chase, the prevailing logic was that *proteins* were the basis of genetic inheritance, mostly on the flimsy-in-hindsight logic that proteins are more chemically diverse than DNA, which is chemically repetitive. What *did* we know before then, then? Considering what I just said, it seems counter-intuitive but the concept of chromosomes, what we know today as structural organizations of DNA, was already known at this point. However, they were only known as mixtures of DNA and protein (which we now know are just histones and other *associated* proteins that do not carry genetic information). Whether DNA or protein was doing the legwork was unknown, but proteins were favored. \n\nI''ll skip over a few other more famous scientists and talk about an under-appreciated one: Theodor Boveri. In the late 19th century he studied the nucleus of parasitic worms (who wouldn''t?!) and noted that as cells divided and reproduced, chromosomes in the nucleus vanished and then reappeared in the same orientation -- suggesting that this represented \"continuity\" in chromosomes, which is precisely the kind of thing Mendelian genetic inheritance would require (though chromosomes and inheritance weren''t formally united until Thomas Hunt Morgan in 1915. He...*sigh*...also won a Nobel Prize. Boveri did not). \n\nFrom there, skipping over a few more people, it''s on to Mendel and his pea plants (and his [maybe fake](http://upress.pitt.edu/htmlSourceFiles/pdfs/9780822959861exr.pdf) data) and Darwin. Natural selection, to inheritance, to chromosomes, to DNA, to the double helix. If you are interested in reading further about any of the work or the people who did it mentioned here, the wikipedia articles are a good start but I highly recommend *The Eighth Day of Creation* by Horace Freeland Judson as mostly a history of 20th century biology. \n\n**Bibliography** \n\n* *The Eighth Day of Creation* - Horace Freeland Judson\n* *Molecular Biology of the Cell* - Bruce Alberts et al. \n* *Theodore Boveri* - Fritz Baltzer, *Science*, Vol. 144, No. 3620 (May 15, 1964), pp. 809-815 (or, alternatively, if you can''t get it because JSTOR is stupid, [this](http://www.genomenewsnetwork.org/resources/timeline/1888_Boveri.php) news article that makes reference to the same article)", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "2vnvh7", 
+                "rowid": 71876, 
+                "subreddit": "askscience", 
+                "ups": 223
+            }, 
+            {
+                "body": "&gt; I find it hard to believe that I would be able to ride a boat around the world, look at some birds (I''m paraphrasing), and come up with, well, natural selection, without already knowing what I know.\n\nBut Darwin knew a lot about competition and struggle from Malthus'' political theory, ''transmutation'' from Lamarck, the age of the earth from Lyell, and the application of natural law to man from Chambers (the Vestiges published anonymously). Historians of science have gone so far as to say you can trace the history of evolutionary thought almost without Darwin, and thus not to take anything away from his originality in presenting an original interpretation of an age-old problem with experimental support, it is telling that Alfred Russel Wallace was able to publish almost the same theory independently several years before Darwin (though the latter had been working on it in his personal notebooks ever since the Beagle voyage). ", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojblgm", 
+                "rowid": 72243, 
+                "subreddit": "askscience", 
+                "ups": 51
+            }, 
+            {
+                "body": "Field: **Plant Biology**\n\nMuch of what I study is related to the plant hormone **auxin**.  The distribution of indole-3-acetic acid (IAA) throughout plant tissues is largely responsible for controlling plant architecture.  For instance, lateral organs (leaves, branches, flowers, etc.) initiate from the shoot apical meristem at sites of local high auxin concentrations.  Today, we spend a lot of effort understanding how the patterns of auxin distribution are made, mostly focusing on the role of polar auxin transport proteins like *PIN*-family proteins.\n\nWhile Darwin predates the work that identified the chemical and the genes responsible for its synthesis, transport, and degradation, a lesson on auxin isn''t complete without mentioning Darwin.\n\nDarwin performed the first experiments that identified some sort of communication between the shoot apex and the hypocotyl (seedling stem) of seedlings.\n\nhttp://www.wikiwand.com/en/Auxin#/Charles_Darwin\n\nIt was a fairly simple experimental setup, but the conclusion is quite powerful.  Using a single light source and various objects to shade plant parts, he gained crucial insight about how plant parts interacted.\n\nhttp://www.bio.miami.edu/dana/pix/auxin_darwin.jpg\n\nHe demonstrated that the shoot apex was sensing the light, but the result occurred in the a different tissue.  In other words, plants were not dumb masses of cells that simply propagated, but consist of dynamic tissues that interact.\n\nLater experiments would demonstrate that the signal was a diffusable chemical eventually identified as IAA.  These experiments use the same experimental system; young shoots bending toward light sources.  Of all the complex behavior that plants demonstrate, this simple model yielded insights because it was easy to manipulate and very robust.  \n\n", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "2vnvh7", 
+                "rowid": 72360, 
+                "subreddit": "askscience", 
+                "ups": 37
+            }, 
+            {
+                "body": "Darwin and his colleague, George Romanes, laid the foundation for comparative psychology. Consider that, without a central theory stating that all animals are in some way related, no field of biology or (in my case) psychology could assume that there would be some similarity in the functioning of different species'' biological systems.\n\nIn *The Expression of the Emotions in Man and Animals*, Darwin stated that humans have \"the same senses as the lower animals\". In *The Descent of Man and Selection in Relation to Sex*, Darwin stated that: \"Nevertheless the difference in mind between man and the higher animals, great as it is, certainly is one of degree and not of kind.\" These two statements set the stage for the comparative study of cognition across species, including humans, as allowing us to understand similarities and differences across species instead of assuming that any (or every) species is unique. Everything we know about the scientific bases of behaviour originates from the animal models used by Pavlov, Thorndike, and Skinner, and the theory of evolution affords us the logical step of translating the basics of behaviourism across species.\n\nThough we have to be careful not to fall into the anthropomorphic reasoning favoured by Romanes (i.e., automatically assuming that ''human-looking'' behaviours in animals are necessarily driven by the same underlying processes as in humans), Darwin helped us move away from anthropocentrism (i.e., human exceptionalism, and the general belief that humans are mechanically superior to other animals). This allows us to study a whole host of animals to compare and contrast their cognitive capabilities on any number of tasks, and to derive conclusions about the evolution and the mechanisms of human cognition. In turn, this has allowed us to use animal models for medicine and neuroscience and relate findings to humans, including those that won [O''Keefe, Moser, and Moser the Nobel Prize for Physiology or Medicine last year](http://www.nobelprize.org/nobel_prizes/medicine/laureates/2014/okeefe-lecture.html).\n\nI encourage you to check out the complete works of Darwin, available for free online:\nhttp://darwin-online.org.uk/", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "2vnvh7", 
+                "rowid": 72029, 
+                "subreddit": "askscience", 
+                "ups": 34
+            }, 
+            {
+                "body": "I''m not implying that Darwin (or Wallace) was working in intellectual isolation, I''m just trying to compare the body of knowledge even a layperson has today, one that seems to make the very concept of evolution seem straightforward, to what existed in the early-to-mid-19th century. ", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojigul", 
+                "rowid": 72321, 
+                "subreddit": "askscience", 
+                "ups": 34
+            }, 
+            {
+                "body": "Of course. Low hanging comedic fruit, admittedly. ", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "coje2io", 
+                "rowid": 72166, 
+                "subreddit": "askscience", 
+                "ups": 29
+            }, 
+            {
+                "body": "&gt; Every 10 year old in the United States (except the ones in Louisiana public schools)\n\nBlegh.  I started to be offended by this snark -- it wasn''t always so bad.  Even now I think most kids are taught by reasonable science teachers (but it''s been a long time since I was in school).  Just realize not everybody from Louisiana is as dumb as our politicians and the people who vote them in.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojblgm", 
+                "rowid": 71998, 
+                "subreddit": "askscience", 
+                "ups": 25
+            }, 
+            {
+                "body": "Yeah, I''m starting to think that wasn''t a good idea. My apologies. ", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "coji3oe", 
+                "rowid": 72229, 
+                "subreddit": "askscience", 
+                "ups": 21
+            }, 
+            {
+                "body": "There''s nothing wrong with Newton''s laws, they''re quite fundamental, it''s just that there extra subtleties attached to them that Newton could not have known about. Also string theory remains today a really good idea without evidence.\n\nAnyway, evolution is fairly \"safe,\" as far as a theory goes--because ultimately its manifestation is a statistical consequence. This isn''t to trivialize it: To this day, there are lots of unknowns in the field, but ultimately that is due to the vast complexity of chemistry and not a fault in the known fundamental rules of natural selection. Another way to put it, the rules of chess are quite \"simple,\" but the number of possible games is enormous--such that it''d be quite difficult to figure out the history of a game board by just looking at it, even though you know the rules.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojqvrz", 
+                "rowid": 72653, 
+                "subreddit": "askscience", 
+                "ups": 21
+            }, 
+            {
+                "body": "&gt; If natural selection were true there wouldn''t be 7 billion people.\n\nThere''s nothing in the theory of natural selection that prohibits or makes unfeasible the current population of Earth. ", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojpo8h", 
+                "rowid": 72624, 
+                "subreddit": "askscience", 
+                "ups": 18
+            }, 
+            {
+                "body": "&gt; If Natural Selection were the only method of evolution, there would not be 7 billion people on earth, because only the elite would survive.\n\nEven if \"only the elite would survive\" (a massive oversimplification of natural selection), those elite would then have kids that were better suited to the selective pressures present in the current environment. And those kids would have kids.  And if each person was responsible for more than one offspring on average, then the population would grow in size over time.  There is nothing about natural selection that precludes population growth.\n\nYou''re talking about something you do not understand.  ", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojrv2e", 
+                "rowid": 72654, 
+                "subreddit": "askscience", 
+                "ups": 18
+            }, 
+            {
+                "body": "I think if Idle theory were true, then there wouldn''t be 7 billion people. Making people is hard work, and our species has some built-in hard wired incentives to make more people.\n\nNatural selection explains why there would be an imperative for our species to propagate itself, why we protect our young, and the young people ''in our tribe''. It explains why we would learn to cooperate with other tribes, because it''s mutually beneficial. This is the reason there are 7 billion of us. So that fact does not contradict the ''survival of the fittest'' when understood correctly. \n\nIdle theory, at least at first glance, does not seem to adequately explain these phenomena.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojpo8h", 
+                "rowid": 72574, 
+                "subreddit": "askscience", 
+                "ups": 15
+            }, 
+            {
+                "body": "Yes but those theories of ''evolution'' described transmutation from simple to complex organisms in a progressive fashion, offering teleological explanations to the problem of speciation. ''Natural selection'' was the crucial part, and indeed as you suggest and my reference to A.R.W alludes to, the period was ripe for such a theory to emerge.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojjbxu", 
+                "rowid": 72309, 
+                "subreddit": "askscience", 
+                "ups": 14
+            }, 
+            {
+                "body": "Of course, \"survival of the fittest\" is not Darwin''s phrase. It''s Herbert Spencer''s.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojblgm", 
+                "rowid": 72558, 
+                "subreddit": "askscience", 
+                "ups": 14
+            }, 
+            {
+                "body": "I recommend reading about the long term E. Coli experiment:  \nhttp://myxo.css.msu.edu/ecoli/index.html  \nhttp://en.wikipedia.org/wiki/E._coli_long-term_evolution_experiment", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojrswd", 
+                "rowid": 72656, 
+                "subreddit": "askscience", 
+                "ups": 14
+            }, 
+            {
+                "body": "Paleontology has been entwined with Darwin''s work almost since the first publication of *On the Origin of Species*. The discovery of [*Archaeopteryx*](http://en.wikipedia.org/wiki/Archaeopteryx) came just a few years after it was first published, and not long after a [heated debate](http://en.wikipedia.org/wiki/1860_Oxford_evolution_debate) on evolution between Thomas Henry Huxley and Samuel Wilberforce. \n\nThere was a steep divide at the time. It''s worth considering the context that /u/dazosan mentioned: there was no known mechanism for inheritance, no real knowledge of genetics. Oddly enough, many of the same arguments were being made that we see today (e.g. \"it was of little consequence to himself whether or not his grandfather might be called a monkey or not\").\n\nHuxley, known to many as \"Darwin''s Bulldog\", saw *Archaeopteryx* as an intermediate form between birds and dinosaurs (although his views were [far more nuanced](http://www.academia.edu/367205/Thomas_Henry_Huxley_and_the_reptile_to_bird_transition) than that). The feathered specimens were spectacular enough on their own, but the timing of their discovery added to the momentum Darwin''s work was gaining. \n", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "2vnvh7", 
+                "rowid": 71952, 
+                "subreddit": "askscience", 
+                "ups": 13
+            }, 
+            {
+                "body": "I''m not sure we''re in disagreement. Much like calculus, there were very similar systems being described by similar persons independent of each other during the same general periods of time in different locales.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojjudo", 
+                "rowid": 72331, 
+                "subreddit": "askscience", 
+                "ups": 13
+            }, 
+            {
+                "body": "And I agree with the sentiment of it appearing so clear now that it makes historical empathy difficult, I just didn''t want someone reading to get the wrong impression that Darwin simply came up with natural selection in a context where nobody was considering it, where in fact many were (or at least providing material conducive to the development of such a theory) :)", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojk3gj", 
+                "rowid": 72519, 
+                "subreddit": "askscience", 
+                "ups": 13
+            }, 
+            {
+                "body": "There were several competing theories of evolution and speciation in the hundred years +/- Darwin, notably including Darwin''s Grandfather. If it hand''t been Darwin it would have been someone else.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojigul", 
+                "rowid": 72284, 
+                "subreddit": "askscience", 
+                "ups": 12
+            }, 
+            {
+                "body": ".....well natural selection is true. and there are 7 billion people.\n\n....so i don''t know where you''re trying to go with that. \n\nwe have 150 years of science behind natural selection...", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojpo8h", 
+                "rowid": 72578, 
+                "subreddit": "askscience", 
+                "ups": 12
+            }, 
+            {
+                "body": "Well, the trouble is that the idea of a \"species\" is pretty arbitrary. Think about human language -- you know that French, Italian, and Spanish are all closely related to each other, and that they descended from Latin. But what was the exact day and time that change occurred? It''s tough to say, and the populations blur into each other. \n\nIt''s not like everybody went to bed one day speaking Latin and woke up speaking Italian, and, similarly, the *E. coli* will be something other than *E. coli* when we decide there''s enough evidence that it''s so.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojtp1n", 
+                "rowid": 72711, 
+                "subreddit": "askscience", 
+                "ups": 12
+            }, 
+            {
+                "body": "Evolution is a change in the frequency of alleles in a population over time. This is the seminal concept that you must understand first, and if you don''t, go look up those words and figure it out.\n\nThis can happen in several ways. There can be a mutation. There can be incoming genetic variation. There can be random changes or genetic \"drift,\" especially in small populations. Or there can be natural selection. So natural selection is one mechanism (some say the primary mechanism, although I actually disagree) of evolution.\n\nI hope this helps.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojqr1a", 
+                "rowid": 72600, 
+                "subreddit": "askscience", 
+                "ups": 11
+            }, 
+            {
+                "body": "&gt; But once you have a premise that cannot be refuted, are you doing science or philosophy or even religion?\n\nI refute your premise that evolution by natural selection can''t be refuted. It can be, it just happens to hold up. Under repeated scrutiny. By thousands of people. Over dozens (soon to be hundreds) of years.", 
+                "downs": 0, 
+                "link_id": "2vnvh7", 
+                "parent_id": "cojqvrz", 
+                "rowid": 72832, 
+                "subreddit": "askscience", 
+                "ups": 11
+            }
+        ]
+    }, 
+    "1iqpb8": {
+        "title": "How long would I have to plug myself into a wall to get the equivalent energy to eating a full day''s worth of food?", 
+        "selftext": "Assuming I could charge myself by plugging into a wall outlet (American wall outlet), how long would I need to stay plugged in to get the same amount of energy as from eating a full day''s worth of food.", 
+        "subreddit": "askscience", 
+        "created_utc": 1374392243, 
+        "ups": 2268, 
+        "downs": 0, 
+        "comments": [
+            {
+                "body": "I think this is a fun question, so I''ll go through it completely hopefully. \n\nSo, first let''s talk about how much energy we eat / consume in a day. As many people can imagine or have heard, \"2000 Calorie\" diet is relatively standard (on the low end, if you are sitting there waiting to be charged all day, haha). I''ll start with this. 1 Calorie is 1 kilocalorie (the capital C means \"kilo\" in this case), and 1 calorie is 4.18 Joules. This comes out to be 8.36 MJ. \n\nSo, we have a number in the units of Joules. Let''s round up to 10 MJ. (This is a rough order of magnitude estimate, which is similar to Conman39''s estimate as well). \n\nNow, for the next part, if you charged yourself, you have to ask, what would be your power draw. Conman39 used a maximum draw from a power socket, however its very rare for your electronics at home to draw that much continuously. \n\nFor instance, lets take a look at how much [power various things draw](http://www.oksolar.com/technical/consumption.html). \n\n\nMicrowave 1,450 Watts\n\nDishwasher: 1,200 Watts \n\nAverage Computer power draw? Maybe 100-500 Watts depending on what you are doing (crazy gaming machine, maybe &gt;500 Watts. Browsing Reddit: maybe 50-100 Watts). \n\nPower required to charge a Macbook? Around 60 Watts. For some other laptops, maybe up to 120 at most, for some others much less. \n\niPhone or iPod power draw? Around 5 Watts to charge it. \n\nSo, what is a Watt? (in case you didn''t know this). It is power, represented as Joules per second. Change of energy over time. \n\nSo, now we have a power draw for conventional items. Now lets ask, what will we use to charge ourselves? (Electronics, based on their function, can change their power draw, so we can make our charger that charges us work at any speed we want, up to the highest ~2 kW before tripping a circuit breaker) \n\n**If we charge ourselves at the extreme power draw of a Microwave, it take about 1.9 Hours. If we go at the rate of a computer (250 Watts) it would take an extreme 11 hours of charging!**\n\n**If we tried to charge ourselves at the rate that we send power to a laptop (100 Watts) it would take ~28 hours! Not enough power to keep us going (but pretty close).**\n\nOne thing that is interesting to think about, if we are feeding ourselves that much power (more than a laptop would draw if at full use even!) then where does that 100 W go throughout the day? And the answer to that, is mostly to heat. Humans are essentially heat lamps. Yes, we can move things around, pedal a bicycle and exert energy in many different ways, but in the end of the day those things are quite small compared to the amount of energy we output in just heat. \n\nInterestingly enough, when engineers have to design cooling systems for auditoriums and such, this heat really matters. (Have you ever been in a small room with &gt;20 people without AC? It get''s hot fast)  When they do the calculation, a reasonable assumption is that every person is like a 100 Watt light bulb, always on when in the room. \n\nSo, now we can think about how much food costs, and how much power that actually is... If you could just eat 1 beef soft-taco from Taco Bell ([200 Calories](http://www.tacobell.com/nutrition/information)) that would be enough power to keep a laptop charging for about 4 hours! (at 60 Watts). \n\nIn the United States, we can compare this cost to the cost of power from the wall at home:[11.92 cents per kWh](http://www.eia.gov/electricity/monthly/update/end_use.cfm#tabs_prices-3). \n\nThat taco, if you were to make it purely from power from the wall, would cost 2.77 cents! And the power required to charge us, as humans, per day would cost only 33 cents. Just imagine, only spending 120 USD per year on food! \n\nOut of curiosity, i wanted to see how much various foods stack up in the Calories per dollar way, to see if anything can catch up to the power from the wall. [And the best I can find is that if you were to drink straight canola oil / cooking oils or from flour, that would be 200 Calories for only 7 cents, which is still 3 times more expensive than electricity from the wall](http://www.mymoneyblog.com/what-does-200-calories-cost-the-economics-of-obesity.html) (but surprisingly close, for being the highest energy / cost food I could find). \n\nIn the end though, we cannot ingest energy this way (thankfully maybe, I like eating!) and it''s definitely not efficient money wise to try to feed our laptops tacos and sandwiches (even though crumbs do end up in the keyboards).  ", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "1iqpb8", 
+                "rowid": 1144587, 
+                "subreddit": "askscience", 
+                "ups": 3545
+            }, 
+            {
+                "body": "That is a really in depth answer that went well beyond the original scope of the question and thank you for that. I decided to submit this to /r/DepthHub.\n\nHow large of a solar panel would we need to power ourselves for a day?", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb74jlf", 
+                "rowid": 1144594, 
+                "subreddit": "askscience", 
+                "ups": 579
+            }, 
+            {
+                "body": "I am an HVAC engineer, so I''d like to give some more exact numbers on your example regarding the cooling of an auditorium.\n\nThe number we commonly use for a person seated at rest is 245 BTUH sensible (British Thermal Units per Hour) and 205 BTUH latent.  The sensible heat is heat that goes in to warming the air around us, and the latent is the heat given off in moisture (i.e. sweat), so the higher the latent is, the higher the relative humidity gets, as that meants we''re sweatng more. \n\nA light bulb does not give off any latent heat, so to compare the two means ignoring the latent part of the heat given off by a human.  BTUH is another unit for power, so converting to watts is as simple as multiplying by a number, and in this case 1 kW = 3,413 BTUH. This means a human seated at rest will give off about 72 watts of heat (245/3.413). A 100 watt light bulb does not give off 100 watts of heat, as some of it does go in to producing light, and a relatively good (and slightly hand-wavy) assumption is that incandescent light bulbs are 20% efficient (yes, they are that awful), so a 100 watt light bulb will put out about 80 watts of heat.\n\nSo, your comparison is fairly accurate when talking about simply sensible heat, but does not take in to account the latent heat given off by humans.  This is like comparing a 90 degree day in arizona to a 90 degree day in florida.  Same temperature, but the humidity in florida makes it so much more unpleasant, and is part of the reason why its so unpleasant in a room full of people.\n\nTo expand upon the auditorium example:\n\nAssuming an auditorium can seat 500 people with a full house, this means that the people will produce 122,500 BTUH of sensible heat, or approximately 35.9 kW, and 102,000 BTUH latent heat, or approximately 30 kW.  Cooling loads are commonly measured in tons, and 1 ton =12,000 BTUH.  So, if we were to put in a system to cool the space, and completely ignore all heating effects on the space from the sun, the exterior temperature, infiltration, windows, walls, equipment heat, lights, etc, this would require a system capable of putting out 10.2 tons sensible cooling and 8.5 tons latent cooling (aka dehumidification).  This means the total capability of this unit would need to be about 18.7 tons! To put it in perspective, your home unit (depending on the size of your house) is somewhere in the range of 1 to 5 tons (it could be larger if you have a really big house).  \n\nWhen you also factor in all other sources of heat (mentioned above), it can easily drive the required size of the unit to 25 or 30 tons.  Each unit draws a different amount of power, depending on how efficient it is, but a 27 ton Carrier Weathermaker will use about 32 kW to cool that space.  So, for a 4 hour performance, that means it would use 128 kWh.  Using /u/bluecoconut''s, numbers, that means it would cost the auditorium about $15.25 to cool the space in that 4 hours, and over the course of 5 months of cooling (assuming 16 hours a day of operation), it will cost about $9,100.  Imagine if your electricity bill was that high!  Not to mention, they also need to cool the rest of the building, so its not unusual that (for big buildings), it can cost several hundred thousand dollars a year to condition the space.  That''s a lot of money!", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb74jlf", 
+                "rowid": 1144777, 
+                "subreddit": "askscience", 
+                "ups": 327
+            }, 
+            {
+                "body": "I hope I''m not stepping on /u/bluecoconut''s comment (which was fantastic, by the way) while I attempt to answer your question, but I think that it''s a really cool thing to consider. \n\nSolar often has a quoted capacity factor of 15-20%. What this means is that over the lifetime of the panel, they''re expected to produce full power (i.e. when exposed to the sun) for that much of their time. Obviously it''s highly dependent by region, so lets pick a few cities with known sunshine values per month to work with\n\n* Phoenix, Arizona in June (408.0 sunshine hours, that''s ridiculous) \n* San Fransisco, California in May (325.5 hours, very sunny!) \n* New York City, New York (268.2 hours, July, peak of summer) \n* London, UK (149.3 sunshine hours, September, heading into winter)\n* Berlin, Germany in December (37.2 sunshine hours, December, very cloudy) \n\nLet''s assume that at all other times, the solar panel output is negligible and can be ignored, so we''ll disregard any time there''s no sun. We''ll also assume that solar insolation is constant, and that we have a tracker installed so the panels always directly face the sun when sunlight is available. We take /u/bluecoconut''s worked out figure of 8.36MJ of energy per day per human, and then convert it to kilowatt hours, which is another unit of energy, it''s actually the unit you get changed for on your electricity bill. 1 kWh = 3,600,000J or 3.6MJ. \n\n8.36 / 3.6 = 2.32, so, we need 2.32 kWh of energy per day to maintain ourselves. \n\nNow all we do is simply divide the number of sunshine hours per city per month by the number of days per month and obtain a daily average number of sunshine hours. Let''s assume for this system, you have a really large battery bank where you can store all this power too. \n\ni.e. Phoenix in June = 408.0 sunshine hours / 30 days = 13.6 hours of sun per day. \n\nNow, to achieve 2.32 kWh of energy from 13.6 hours of sunlight, you''d need a panel that generates and is rated for 2320 / 13.6 = 170 Watts. That''s actually quite feasible (keep it mind it has to generate 170W constantly for 13.6 hours). \n\nAccording to Wikipedia, the most efficient mass-produced solar panels currently on the market achieve 175W/m^2 . If you had such a panel you''d (be very rich, firstly) need 170 / 175 = 0.95 m^2 of solar panel to keep you going for a full day in Phoenix, Arizona in June.\n\nRinse and repeat for other locations:\n\nSan Fransisco, California = 221 Watt panel, roughly 1.26 square metres of panel\n\nNew York City, NY = 269 Watt panel, roughly 1.54 square metres in size\n\nLondon, UK = 466 Watt panel, roughly 2.66 square metres\n\nBerlin, Germany = 1,933 Watt (1.9kW) panel, roughly 11.04 square metres in size\n\nTL;DR: Sucks to power yourself via the sun in Germany. \n\n", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb74owl", 
+                "rowid": 1144641, 
+                "subreddit": "askscience", 
+                "ups": 269
+            }, 
+            {
+                "body": "A typical US socket supports 1800 watts. That''s 1.8 kW, which is 1800j/s. Personally, I need about 11 000 kj per day, so that''s 11 000 000j daily. \n\n11000000j/1800W=6111 seconds\n6111/60=101.85 minutes\n\nTherefore, about 102 minutes \n\nI don''t have a degree or anything in this field, I just used some maths and google. Anybody feel free to correct me if I''m wrong :)", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "1iqpb8", 
+                "rowid": 1144537, 
+                "subreddit": "askscience", 
+                "ups": 86
+            }, 
+            {
+                "body": "The 20W that are emitted by the light bulb as light instead of as heat directly are absorbed elsewhere in the space to generate 20W of heat.  Only if the light exits the area under consideration is it appropriate to leave it out for cooling purposes.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb787ef", 
+                "rowid": 1144804, 
+                "subreddit": "askscience", 
+                "ups": 83
+            }, 
+            {
+                "body": "/u/bluecoconut has already answered this question very well, but I recall doing the math on my own a while ago and translated it into AA batteries.\n\n**If a human being were powered by ideal 2500mAh batteries, we would go through one every 55 seconds.**", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "1iqpb8", 
+                "rowid": 1144677, 
+                "subreddit": "askscience", 
+                "ups": 72
+            }, 
+            {
+                "body": "Could you heat a sound-proof room using speakers?", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb78rh6", 
+                "rowid": 1144952, 
+                "subreddit": "askscience", 
+                "ups": 43
+            }, 
+            {
+                "body": "You can heat any room using speakers. Sound proofing would improve the efficiency. Some sound energy is always converted to heat when moving through a medium. ", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb7bs32", 
+                "rowid": 1145064, 
+                "subreddit": "askscience", 
+                "ups": 42
+            }, 
+            {
+                "body": "HVAC engineering intern here!\n\nYes and no. As with anything its not 100% black and white. Yes, there are many many applications where you can utilize the heat generated by a space load to help temper the air for that space. However, there is more to ''conditioning'' the air than just maintaining a thermostat set point of 72. Humidity, CO2 levels, VOCs (volatile organic compounds, i.e. germs), restroom smells, food smells, etc must all be considered as well. For humidity control, this means you might be having to run your air conditioner (since air conditioners not only cool the air, but dehumidify it as well) during the dead of winter if you''re building up too much humidity in your space (I can almost guarantee you are). Also, there are government regulations monitored by organizations such as ASHRAE, IMC, etc that set minimum levels of outside air that must be provided per person. So, Mall of America must be pumping in very large amounts of outside air to provide for their customers. \n\nSo, what does this all mean? While it may be true that heating is not required during winter months, its somewhat misleading. HVAC (heating, ventilation, and air conditioning) is a three-headed beast, so saying you don''t use one doesn''t mean MoA doesn''t still have exorbitantly high HVAC bills, since they will still need to ventilate and  possibly dehumidify the air. And I almost guarantee they have supplemental heat for low demand periods. If 100 people are in the mall they won''t generate enough heat to warm the space. ", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb7b1nz", 
+                "rowid": 1144953, 
+                "subreddit": "askscience", 
+                "ups": 38
+            }, 
+            {
+                "body": "I want to take a little bit of a different approach to what has been done here so far. We need to remember some practical physics here. You WALL outlet in america is 120 Volts, AC. If you were \"plug yourself in\" you would represent something along the lines of a 1 MOhm impedance. P = V^2 / R = 0.0144 Watts. So to get your 10 MJ of daily energy you need to be charged for something like 193000 hours. Also, we would have issues of contact burns and general cellular damage, so let''s move on.\n\nOn the other hand, if instead of using dry fingers, we implanted some nice biofriendly wires (something like platinium). We''d also need to make sure we didn''t cause electrolysis of the water in your body (or otherwise we''d cause cellular damage). So we could get the contact resistance down to about 1 kOhm, but we couldn''t apply more than about a voltage (otherwise we get electrolysis). Now, the power we can cause you to dissipate is 0.001 Watts. Damn it, that is even worse that before.\n\nOkay, let''s say this is a one off charge. We give you 120 Volts, through your 1 kOhm contacts... okay, now we''re at ab60out 15 Watts. But alas, again, to get 10MJ of energy at 15 Watts, you need 185 hours.\n\nIt''s not looking good for the plug in human.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "1iqpb8", 
+                "rowid": 1144883, 
+                "subreddit": "askscience", 
+                "ups": 22
+            }, 
+            {
+                "body": "haha, sorry, I''m a little bigger than standard", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb74q5k", 
+                "rowid": 1144602, 
+                "subreddit": "askscience", 
+                "ups": 21
+            }, 
+            {
+                "body": "so basically,\n\n(your daily intake (j)/1800)/60=minutes needed", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb73ylw", 
+                "rowid": 1144593, 
+                "subreddit": "askscience", 
+                "ups": 18
+            }, 
+            {
+                "body": "Good answer, but some nitpicks that I think you could answer: dietary calories for various foods are the total energy output as measured by a calorimeter. A living person''s stomach has to (1) exert energy to digest that food, and (2) the yield is not 100% and in most cases much lower. In both cases, it really depends on the method of food preparation (eg. a giant raw piece of steak is very hard to digest, and same with raw vegetables, while processed carbohydrates such as bread and pasta break down quickly). Since no caloric guidelines on the planet currently adjust for this, it is likely that the actual caloric requirement is much lower.\n\nIt would actually be interesting to see what the actual dietary requirement would be if glucose were supplemented into the blood and basic amino acids were directly absorbed via the gut. I bet there''s some data out there from hospitals where patients can''t eat or digest food.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb74jlf", 
+                "rowid": 1144770, 
+                "subreddit": "askscience", 
+                "ups": 18
+            }, 
+            {
+                "body": "I watched a show on the science channel (I believe it was) about large engineering endeavours, and I recall it saying The Mall of America spent $0 annually on heating bills because they utilized the heat from the massive amounts of people constantly in the building to power their AC units, which they have to run even during the winter.\n\nIs this something common in large buildings? And is it possible for the heat energy produced by people to completely power the AC for \"free\"?\n", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb787ef", 
+                "rowid": 1144915, 
+                "subreddit": "askscience", 
+                "ups": 17
+            }, 
+            {
+                "body": "A 100 watt lightbulb, 100 watt fan, 100 watt heater and a 100 watt speaker would all heat a room at the same rate assuming all are running at 100 watts at all time and none of the light energy or sound energy escapes the room.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb7bs32", 
+                "rowid": 1145169, 
+                "subreddit": "askscience", 
+                "ups": 16
+            }, 
+            {
+                "body": "How much would a square meter of such a panel cost, really?", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb75ts4", 
+                "rowid": 1144669, 
+                "subreddit": "askscience", 
+                "ups": 15
+            }, 
+            {
+                "body": "&gt; I think to charge faster you''d have to stick the wires into your bloodstream. \n\nWhich is a good way to kill yourself.\n\nhttp://darwinawards.com/darwin/darwin1999-50.html\n\n(not that I think you were suggesting it, obviously, just reminded me of that story.)", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb77ntv", 
+                "rowid": 1144758, 
+                "subreddit": "askscience", 
+                "ups": 15
+            }, 
+            {
+                "body": "Virtually all of the energy input to loudspeakers, especially the subs at a rave, is emitted directly as heat in the speaker and the amplifier.  The trivial amount emitted as sound is rapidly converted to heat in the air/walls/etc as you get farther away.  You can convince yourself of this by calculating the wattage necessary to deafen yourself with a 100% efficient loudspeaker, and then noting that typical club audio systems consume thousands of times that much power and generally fail to immediately deafen their audience.\n\nEdit: A perfectly efficient speaker would produce a sound with an intensity of 112dB at a range of 1m, with an input power of 1W.  That''s something that could easily run off of a small battery.  It''s already loud enough to be painful, and it would cause hearing loss over a relatively short time (less than an hour).  Fortunately for people like me who like to go to raves, most speakers are on the order of 1% efficient (and earplugs are cheap).\n\nEdit 2: I recently went to a rave that advertised 100,000W of sound in a venue with a capacity of 4,000 people.  It was a pretty popular act, so let''s assume the place sold out.  That''s 400,000W of people 100% of the time, but with a sound system that peaks at 100,000W (assuming that number wasn''t just marketing BS), you won''t be drawing the maximum current 100% of the time, so I''m thinking the sound system probably doesn''t contribute more than 1/5 of the heat in that sort of environment.  It''s mostly the people.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb7gqpl", 
+                "rowid": 1145279, 
+                "subreddit": "askscience", 
+                "ups": 14
+            }, 
+            {
+                "body": "Depends on the mechanism for using the power it generates to power humans, I''d think.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb769ou", 
+                "rowid": 1144718, 
+                "subreddit": "askscience", 
+                "ups": 13
+            }, 
+            {
+                "body": "Why don''t you just look at someone''s resistance and calculate the power draw from there?\n\nI just grabbed two leads of my multimeter and measured 500k Ohms.  The wall is 120V.\nPower draw is V^2 / R = .028W  \n...  \nThat''s actually really slow.  I think to charge faster you''d have to stick the wires into your bloodstream. ", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb74jlf", 
+                "rowid": 1144753, 
+                "subreddit": "askscience", 
+                "ups": 13
+            }, 
+            {
+                "body": "Mobile, so I''m not citing sources, but IIRC, once on the front page, a lot of bad answers were coming in, so mods requested to be removed from defaults.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb7amo6", 
+                "rowid": 1144902, 
+                "subreddit": "askscience", 
+                "ups": 13
+            }, 
+            {
+                "body": "Not a concrete answer (not certain what sort of speakers you''d be looking at, how many people etc) but I''m pretty confident that in any sensible variant of this scenario, it''s insignificant compared to the people. ", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb7gqpl", 
+                "rowid": 1145221, 
+                "subreddit": "askscience", 
+                "ups": 12
+            }, 
+            {
+                "body": "The UK has 230V @ 13A - so 2990 watts.\n\nEdit: Removed information of unknown quality.", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb75xwy", 
+                "rowid": 1144691, 
+                "subreddit": "askscience", 
+                "ups": 11
+            }, 
+            {
+                "body": "I wouldn''t be able to tell you exact numbers, but there is more cost to have solar power besides just the panel itself, such as power inverters to convert the DC current in AC to power your house, installation of the panel, etc. There was a thread on Reddit discussing this, and many people were claiming to have spent ~$20,000 after government paybacks and tax incentives. \n\nNow, depending on how big your panel is and how much electricity you use, you still might draw from the grid for some of your power (especially at night, since there are no real effective ways at storing excess solar power). Now, large office buildings or college campuses or whatever that have large amounts of solar power generation can participate in something called net-metering, where they actually sell all their excess electricity back to the utility company at the same rate said utility charges for it. But, I''m not sure if this applies for small scale residential application. \n\nAnyways, long story short, you''re probably looking at a $20,000 investment, and won''t see a payback on your investment for 5-10 years. Is it worth it? That''s entirely a case by case basis. ", 
+                "downs": 0, 
+                "link_id": "1iqpb8", 
+                "parent_id": "cb78rnf", 
+                "rowid": 1144899, 
+                "subreddit": "askscience", 
+                "ups": 11
+            }
+        ]
+    }, 
+    "1ldeuq": {
+        "title": "Evolution question: It said in my biology textbook that evolution never causes an individual to sacrifice their own ability to survive to increase the survivability of their group. But how do you explain poisonous mushrooms, or bees that die after losing their stinger?", 
+        "selftext": "They seem to be examples of organisms sacrificing their own ability to reproduce in the future so that their group can survive, right? So is the textbook wrong?\n\nThe book is Scott Freeman''s Biological Science.", 
+        "subreddit": "askscience", 
+        "created_utc": 1377826901, 
+        "ups": 1117, 
+        "downs": 0, 
+        "comments": [
+            {
+                "body": "What Freeman actually says is not that no self-sacrificing behavior of *any* type can ever evolve, but rather (direct quote): \"No instance of **purely** self-sacrificing behavior\u2014**where the individual received no fitness benefit in return**\u2014has ever been recorded in nature.\" (emphasis mine)\n\nThat bit about a \"fitness benefit\" is critical because it allows evolution of altruistic behaviors that *do* result in a fitness benefit. The big 2 examples being:\n\n- behaviors that benefit your kin. (so that even if you die, your kin are more likely to survive - and to pass on genes that you share). This is most likely to evolve in species that (a) live near kin for some part of their lives, and (b) can distinguish kin from nonkin.\n\n- behaviors that benefit an individual who is particularly likely to help you in return in the future. This is called \"reciprocal altruism\". It is common in social species in which (a) particular individuals interact repeatedly many times, and (b) individuals can recognize each other. (edit: I forgot (c) - individuals have a good enough social memory to remember and avoid \"cheaters\")\n\nAs for your two examples: A poisonous mushroom isn''t an example of an organism sacrificing itself, because it''s not the entire organism. A mushroom is just an outgrowth of an underground network of fungal filaments; so if an animal eats 1 mushroom and dies, other mushrooms produced later by that same fungus may survive. Bees are a special case because they have unusual genetics (haplodiploidy) but in essence they are an extreme example of kin selection. If a bee manages to drive away a predator from the hive, even if it dies in the process, many copies of its genes will survive in its sisters and in the young larvae in the hive. (edit: also, as pointed by out by several commenters below, bees don''t always die when stinging other insects.)\n\nref: See the chapter on Behavioral Ecology in your book - that chapter has a whole section on evolution of altruism. For more details check out \"Evolutionary Analysis\", by Herron &amp;amp; Freeman (yes, same Freeman) &amp;amp; see ch 12 on kin selection &amp;amp; social behavior. (full disclosure, I worked on both these textbooks and was a consultant on the chapter you''re asking about.)", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "1ldeuq", 
+                "rowid": 1206425, 
+                "subreddit": "askscience", 
+                "ups": 1253
+            }, 
+            {
+                "body": "Think of the whole beehive as the animal, rather than the individuals. In this case, sacrificing a few bees in order to protect the hive might be the equivalent of scraping your knuckles while beating off an attacker; you get a little dinged up, but nothing that won''t heal quickly.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby5n5u", 
+                "rowid": 1206462, 
+                "subreddit": "askscience", 
+                "ups": 226
+            }, 
+            {
+                "body": "The worker bees are physically incapable of reproducing, hence normal evolutionary theory doesn''t really apply to them.  The genetic code of a worker bee survives if and only if the hive is successful.  \n\nThe relationship between a worker bee and her own genetics is quite similar to the evolutionary relationship between my individual cells and their own genetic material.  Evolutionarily, a worker bee will sacrifice itself for the same exact reason that a human would cut off his arm to save his penis.  The arm is an evolutionary dead end, it evolves because it shares dna with the sperm, which are capable of reproduction.  The analogy between a bee hive and an organism, with workers as cells, is incredibly accurate.  ", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby9hrg", 
+                "rowid": 1206776, 
+                "subreddit": "askscience", 
+                "ups": 192
+            }, 
+            {
+                "body": "Hymenoptera (bees and ants) are special in that a colony is like an organism and the different workers and drones are akin to cells in an organism. They work together and die in order for the main organism to survive and reproduce. You can see the Queen as an ovary and the drones as male gametes.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby6jzm", 
+                "rowid": 1206717, 
+                "subreddit": "askscience", 
+                "ups": 169
+            }, 
+            {
+                "body": "You''re nitpicking.  Yes, there exist eusocial species in which the workers are physically capable of reproducing.  But in every eusocial species, by definition, that is for one reason or another unlikely to ever happen.  I never intended to imply that what I said was true of all bees, just the bees in a superorganism.  Non-eusocial bees exist, but they are evidently outside the scope of this discussion.  \n\nAnd you missed the part where I said \"*normal* evolutionary theory.\"  Kin selection is abnormal in its own right, and eusociality is such an extreme example of kin selection as to border on the ridiculous.  ", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby9ys5", 
+                "rowid": 1206822, 
+                "subreddit": "askscience", 
+                "ups": 81
+            }, 
+            {
+                "body": "Isn''t this semantic though? That is, isn''t this superorganism thing something that we call, by definition, a group of organisms that don''t obey the principle op mentioned?", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby91w6", 
+                "rowid": 1206762, 
+                "subreddit": "askscience", 
+                "ups": 80
+            }, 
+            {
+                "body": "Common misconception. Hymenoptera (which includes bees) exist on a spectrum of eusociality, and while most bees we are familiar with have sterile workers, this is not always true. In such eusocial species, fertile worker bees are usually less so than the queen, but the queen is able to assert herself via dominance displays that often suppress or even eliminate reproduction by her workers. There are other bee species that are solitary as well.\n\nEvolutionary theory is still applicable to eusocial species, you just have to take into account their different relatedness.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby9n5l", 
+                "rowid": 1206811, 
+                "subreddit": "askscience", 
+                "ups": 59
+            }, 
+            {
+                "body": "Your textbook is wrong, however, your examples are not apt: bees which sting do not reproduce and mushrooms are just the fruiting body of a much larger fungus.\n\nConsider the defensive actions of a wide range of animals which fight to the death to protect their young. Next time you come across a goose with chicks just try and take a chick.\n\nEvolution is mostly concerned with the population, not the individual even though it is the individual which confers a differential survival advantage to a population over time.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "1ldeuq", 
+                "rowid": 1206377, 
+                "subreddit": "askscience", 
+                "ups": 53
+            }, 
+            {
+                "body": "That''s not a bad question but it''s a stretch between biology, psychology, and sociology that I''m not sure we quite have a great answer for just yet.\n\nOn the molecular level cells have certain triggers that send the cell into apoptosis or a programmed cell death. Which, when you think about it, seems almost like a cell sacrificing itself for the greater good of the organism.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby6hai", 
+                "rowid": 1206499, 
+                "subreddit": "askscience", 
+                "ups": 37
+            }, 
+            {
+                "body": "\"I would lay down my life for two brothers or eight cousins.\" -- JBS Haldane\n\nThere''s nothing subjective about that interpretation. Kin selection (as is all of biology) is an explanation for something we observe in the natural world, not advice on how to conduct your life -- as Haldane facetiously points out. Social animals have an observed tendency to put themselves in danger more frequently when doing so could benefit close relatives, as opposed to more distant relatives. If you''re curious about this, Google vervet monkey alarm calls.\n\nAs to your latter point, that is a semantic distinction based on different meanings attributed to the word \"purpose\". Successful reproduction is the guiding principle for all life. \n\nYour questions regarding who you would sacrifice yourself for are \"should\" questions, which are beyond the scope of biology. Who you choose to sacrifice yourself for is your business.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby9n6o", 
+                "rowid": 1206790, 
+                "subreddit": "askscience", 
+                "ups": 30
+            }, 
+            {
+                "body": "In addition, bees that sting usually lose their stingers only when they sting animals with thick skins, like mammals. They can usually sting insects many times.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby4g14", 
+                "rowid": 1206382, 
+                "subreddit": "askscience", 
+                "ups": 27
+            }, 
+            {
+                "body": "I believe that you (or your textbook) have slightly misphrased the intent of the statement. \n\nIndividuals do not ever sacrifice themselves for the good of a group. But they WILL sacrifice themselves for the good of their offspring. Or more generally their genetic future. \n\nPoisonous mushrooms, is a very weird example as other people have said. I would assume that most mushrooms have evolved as toxins to deter animals from eating them. This is a phenomena that can be easily explained through natural selection: the more poisonous mushrooms survived and reproduced more. \n\nThe Bee example is more interesting. You should read this wikipedia article,called [eusociality](http://en.wikipedia.org/wiki/Eusocial), for a full explanation. The basics are that bees which sting and die, do so because they can not reproduce. Because they can not reproduce their best chance for increasing their own genetic code in future generations is to protect their mother (the queen) in hopes that the queen will produce siblings to the stinging bees. In this case at least 0.5 of each worker bee''s genetic code has a chance to be carried into the next generation in the form of a sibling. \n\nThere is a lively debate to be had about if true altruism exists. But the question you have asked does not quite get to the core of that debate. You have kind of danced around multiple concepts including natural selection, altruism, group selection, and others.  \n\nI have read the Freeman book, I think it is good and will explain a lot for you. If you want to read another book that talks more about darwinian puzzles and large scale evolution questions. I recommend reading \"Animal Behavior\" by Alcock, it is one of be better textbooks that I have ever read. I believe now it is in its ninth or tenth edition. ", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "1ldeuq", 
+                "rowid": 1206429, 
+                "subreddit": "askscience", 
+                "ups": 25
+            }, 
+            {
+                "body": "Keep in mind that any new traits can take a very long time to be selected against, especially if they don''t have a lot of evolutionary pressure.\n\nIf some wiring in our brain makes us more effective at solving certain types of important problems but results in say 1 in 10,000 people committing suicide then it would probably stick around.  Evolution works best when something can be removed via gradual changes (think selecting for a trait like height); a sudden mutation that gave many benefits and occasional downsides might not have an easy selection criteria to quickly remove the down side.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby6hai", 
+                "rowid": 1206527, 
+                "subreddit": "askscience", 
+                "ups": 23
+            }, 
+            {
+                "body": "What about suicide?", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby5n5u", 
+                "rowid": 1206457, 
+                "subreddit": "askscience", 
+                "ups": 20
+            }, 
+            {
+                "body": "Don''t forget about the naked mole rat! They are mammals that live in eusocial societies underground. Their queen uses physical dominance and contact to stress the other girls in the colony out and keep them in a state of pre-pubescence. So its not only bees and wasps that live on this social spectrum. ", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby9ys5", 
+                "rowid": 1207041, 
+                "subreddit": "askscience", 
+                "ups": 19
+            }, 
+            {
+                "body": "I can''t believe that nobody else has said this yet, but bees don''t die when they sting just anything.  Their stinger is barbed, which makes it extremely effective against other insects.  Against thick fleshed vertebrates, yes, they die. But not when they sting other insects.\n\nhttp://mentalfloss.com/article/28802/do-bees-really-die-after-they-sting-you", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "1ldeuq", 
+                "rowid": 1206951, 
+                "subreddit": "askscience", 
+                "ups": 15
+            }, 
+            {
+                "body": "In eusocial insects, like bees and ants (and to a different extent termites and earwigs), much of what a particular insect does is dictated by the pheromones released within its environment. \n\nI study the European honey bee (Apis mellifera), so my explanation will focus on them. \n\nLet''s start with basic bee biology. \n\nThere are three castes, the female workers, make drones, and female queen. Drones are, for intents and purposes, sacks of sperms, only useful when the colony has a virgin queen. There typically aren''t a lot of them, and their genome is haploid. They have no stinger. The stinger is a modified ovipositor (egg-laying device). As such they aren''t relevant to these altruistic tests in reference to this thread. \n\nThe queen does not have barbs on her stinger. This is because when a colony needs a new queen, the workers preferentially move a small cohort of eggs into queen cells, and feed them \"royal jelly\". The first of these queens to emerge kills all the other queens. As such, her stinger is not a serrated so it doesn''t kill her. She also isn''t relevant to the altruism referenced in this thread.\n\nNow we have the workers. They have 15-17 barbs on their stinger which function like a fish hook. Once it goes in, the bee cannot pull it out, even if we can. To escape, the bee simply rips off the ovipositor, expelling its rectum and midgut. This ultimately kills the bee. \n\nBut why would workers do this? The colony as a whole shares a massive amount of genes. Virgin queens mate with drones and keep the sperm for her entire life. She then will lay unfertilized haploid eggs in drone cells, and fertilized haplodiploid eggs in worker cells, which means an individual female worker may share up to 75% of her genes with her sisters (more than a parent in other species share with their children, siblings share, etc.) This is the first reason for the \"altruistic\" behavior. It doesn''t matter whether or not the workers had choices in their development and are capable of reproducing themselves. Protecting their sisters will in turn protect up to 75% of the genes. \n\nThe next reason why they do this is simply because of pheromones. The queen releases daily pheromones to regulate the tasks of her workers (guarding the nest, foraging, feeding larvae, etc.) additionally alarm pheromone can be release from the queen or from a worker that stings you. That first sting may be an accident, it may be because the queen ordered it, or it may because the bee exhausted its preliminary warnings (headbutts, trying to kill you via heat, etc.) Whatever that cause, this pheromone is released, and you instantly have a target on you. You''ll smell bananas, and you should run. All bees defending the hive will attack. \n\ntl:dr Worker bees will sting a predator to send it away because they themselves can''t reproduce; protecting their sisters can protect 75% of their genes; protecting their queen will allow these genes to propagate. They also have to because of pheromones responses. ", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby8uek", 
+                "rowid": 1206736, 
+                "subreddit": "askscience", 
+                "ups": 13
+            }, 
+            {
+                "body": "I don''t think evolution is concerned with the population at all (my understanding is based upon Dawkins'' The Selfish Gene) but rather genes that are good at copying themselves exist more frequently than genes that aren''t.  In this sense evolution isn''t about populations or even individuals, but rather about genes.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby4g14", 
+                "rowid": 1206487, 
+                "subreddit": "askscience", 
+                "ups": 12
+            }, 
+            {
+                "body": "As long as the queen reproduces, all other bees are willing to die. Notice that these worker ants and bees work all their lives and die without any sort of reward other than nutrition. Their reward is the survival of their genetic information - through the queen. The objective of all organisms is to spread their own genetic information, no matter which way that happens.", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby9hrg", 
+                "rowid": 1206772, 
+                "subreddit": "askscience", 
+                "ups": 12
+            }, 
+            {
+                "body": "Yet not every cell expresses exactly the exact same genetic information. Blood cells, skin cells, neurons; they all have the same DNA but express the only the specific genes necessary to carry out its specific functions for the benefit of the organism as a whole.\n\nEven among these specific cell types, however, they can respond to different stimuli. As for apoptosis, \"programmed cell death\", that is also in the genetic makeup of every cell. Under specific conditions each and every cell, generally speaking, can and will undergo this \"programmed cell death\".", 
+                "downs": 0, 
+                "link_id": "1ldeuq", 
+                "parent_id": "cby7py5", 
+                "rowid": 1206620, 
+                "subreddit": "askscience", 
+                "ups": 11
+            }
+        ]
+    }
+}
