@@ -16,6 +16,7 @@ def search():
 		for key in a:
 			a[key]['created_utc'] = time.strftime("%a, %d %b %Y", time.localtime(int(a[key]['created_utc'])))
 			a[key]['selftext'] = markdown2.markdown(a[key]['selftext'].replace("''","'"))
+			a[key]['title'] = a[key]['title'].replace("''","'")
 			for i in range(len(a[key]['comments'])):
 				a[key]['comments'][i]['body'] = markdown2.markdown(a[key]['comments'][i]['body'].replace("''","'"))
 	return render_template('index.html',data=a)

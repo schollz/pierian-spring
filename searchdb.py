@@ -164,7 +164,6 @@ def inverse_search(search_text):
 		for i in range(len(datas[data]['comments'])):
 			if search_text in datas[data]['comments'][i]['body']:
 				found = True
-				print datas[data]['comments'][i]['body']
 		if not found:
 			datas2.pop(data)			
 
