@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Title</title>
+  <title>Pierian Spring</title>
 
   <link rel="stylesheet" href="/static/css/main.css">
 
@@ -28,6 +28,7 @@
   <center>
 <form name="loginBox" action="http://127.0.0.1:8012/" method="POST">
       <input type="search" id="searchText" name="searchText" placeholder="Search..." />
+      <input type="checkbox" name="inverseSearch" id="inverseSearch" value="True">Inverse search?
 <input type="submit" 
        style="position: absolute; left: -9999px; width: 1px; height: 1px;"
        tabindex="-1" />
@@ -45,7 +46,8 @@
           <span class="post-link"><a  href="javascript:ReverseDisplay('{{ key }}')">{{ data[key]['title'] }}</a> </span>
         </h2>
 		<div id="{{ key }}"style="display:none;">
-		{{ data[key]['selftext'] | safe }}
+    {{ data[key]['selftext'] | safe }}
+    {{ data[key]['url'] | safe }}
     <hr>
     <hr>
     {% for comment in data[key]['comments'] %}

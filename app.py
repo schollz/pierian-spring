@@ -12,7 +12,12 @@ app.debug = True
 def search():
 	a = {}
 	if request.method == 'POST':
-		a = inverse_search(request.form['searchText'])
+		print request.form['searchText']
+		if 'True' in request.form.getlist('inverseSearch'):
+			a = inverse_search(request.form['searchText'])
+		else:
+			a = search_normal(request.form['searchText'])
+
 		for key in a:
 			a[key]['created_utc'] = time.strftime("%a, %d %b %Y", time.localtime(int(a[key]['created_utc'])))
 			a[key]['selftext'] = markdown2.markdown(a[key]['selftext'].replace("''","'"))

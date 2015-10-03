@@ -29,7 +29,7 @@ downs
 
 """
 
-subreddit_texts = ['everythingscience','askscience','askreddit','science','explainlikeimfive']
+subreddit_texts = ['python','todayilearned','everythingscience','askscience','askreddit','science','explainlikeimfive']
 
 for subreddit_text in subreddit_texts:
     print "working on " + subreddit_text
@@ -43,7 +43,8 @@ for subreddit_text in subreddit_texts:
             subreddit TEXT, 
             created_utc INTEGER, 
             ups INTEGER, 
-            downs INTEGER)""")
+            downs INTEGER,
+            url TEXT)""")
         c.execute("""CREATE VIRTUAL TABLE sub USING FTS4(
             title,
             selftext)""")
@@ -69,8 +70,8 @@ for subreddit_text in subreddit_texts:
 
     i = 0
     start = time.time()
-    cmd = """INSERT INTO submissions (id,subreddit,created_utc,ups,downs) 
-        VALUES (?,?,?,?,?)"""
+    cmd = """INSERT INTO submissions (id,subreddit,created_utc,ups,downs,url) 
+        VALUES (?,?,?,?,?,?)"""
     cmd2 = """INSERT INTO sub VALUES (?,?)"""
     tuples = []
     tuples2 = []
@@ -83,8 +84,8 @@ for subreddit_text in subreddit_texts:
                 a = json.loads(line)
             except:
                 a = None
-            if a != None:
-                tuples.append((a['id'],a['subreddit'],a['created_utc'],a['ups'],a['downs']))
+            if a != None and a['ups']>5:
+                tuples.append((a['id'],a['subreddit'],a['created_utc'],a['ups'],a['downs'],a['url']))
                 tuples2.append((a['title'],a['selftext']))
                 if i % 100000 == 0:
                     c.executemany(cmd,tuples)
@@ -133,7 +134,7 @@ for subreddit_text in subreddit_texts:
                 a['parent_id'] = a['parent_id'].split('_')[1]
             except:
                 a = None
-            if a != None:
+            if a != None and a['ups'] > 1:
                 tuples.append((a['link_id'],a['parent_id'],a['subreddit'],a['ups'],a['downs']))
                 tuples2.append((a['body'],))
                 if i % 100000 == 0:
@@ -144,5 +145,15 @@ for subreddit_text in subreddit_texts:
     if len(tuples)>0:
         c.executemany(cmd,tuples)
         c.executemany(cmd2,tuples2)
+
     conn.commit()
     conn.close()
+
+print "Creating indicies..."
+conn = sqlite3.connect("ask.db")
+c = conn.cursor()
+c.execute('DROP INDEX IF EXISTS idx1')
+c.execute('CREATE INDEX idx1 ON comments (link_id,ups)')
+c.execute('DROP INDEX IF EXISTS idx2')
+c.execute('CREATE INDEX idx2 ON submissions (id,ups)')
+conn.close()
