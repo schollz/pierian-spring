@@ -16,7 +16,7 @@ def chunks(l, n):
         yield l[i:i+n]
 
 def getComments_worker(ids):
-    conn = sqlite3.connect("../ask.db")
+    conn = sqlite3.connect("ask.db")
     c = conn.cursor()
     comments = []
     if len(ids[0])>1:
@@ -45,14 +45,15 @@ def getComments_worker(ids):
 
 
 def search_normal(search_text):
-    conn = sqlite3.connect("../ask.db")
+    conn = sqlite3.connect("ask.db")
 
     start = time.time()
     datas = {}
     c = conn.cursor()
     cmd = """select rowid,* from sub  where title match '%(search_string)s'""" % {'search_string':search_text}
     print cmd
-    for row in c.execute(cmd):
+    c.execute(cmd)
+    for row in c.fetchall():
         datas[row[0]] = {}
         datas[row[0]]['title'] = row[1]
         datas[row[0]]['selftext'] = row[2]
@@ -63,7 +64,8 @@ def search_normal(search_text):
 
     cmd = """select rowid,* from sub  where selftext match '%(search_string)s'""" % {'search_string':search_text}
     print cmd
-    for row in c.execute(cmd):
+    c.execute(cmd)
+    for row in c.fetchall():
         datas[row[0]] = {}
         datas[row[0]]['title'] = row[1]
         datas[row[0]]['selftext'] = row[2]
@@ -133,14 +135,15 @@ def search_normal(search_text):
     return datas2
 
 def inverse_search(search_text):
-    conn = sqlite3.connect("../ask.db")
+    conn = sqlite3.connect("ask.db")
 
     start = time.time()
     c = conn.cursor()
     cmd = """select rowid,* from com where body match '%(search_string)s'""" % {'search_string':search_text}
     print cmd
     rowids = []
-    for row in c.execute(cmd):
+    c.execute(cmd)
+    for row in c.fetchall():
         rowids.append(str(row[0]))
 
     rowids = list(set(rowids))

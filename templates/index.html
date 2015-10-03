@@ -26,7 +26,7 @@
 <div class="box">
   <div class="container-1">
   <center>
-<form name="loginBox" action="http://127.0.0.1:8012/" method="POST">
+<form name="loginBox" action="/" method="POST">
       <input type="search" id="searchText" name="searchText" placeholder="Search..." />
       <input type="checkbox" name="inverseSearch" id="inverseSearch" value="True">Inverse search?
 <input type="submit" 
@@ -47,7 +47,9 @@
         </h2>
 		<div id="{{ key }}"style="display:none;">
     {{ data[key]['selftext'] | safe }}
-    {{ data[key]['url'] | safe }}
+    {% if data[key]['url'] | length > 10 %}
+    <a href="{{ data[key]['url'] | safe }}">Link</a>
+    {% endif %}
     <hr>
     <hr>
     {% for comment in data[key]['comments'] %}
