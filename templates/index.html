@@ -19,7 +19,23 @@
     <div class="page-content">
       <div class="wrapper">
 
+
 <div class="home">
+
+
+<div class="box">
+  <div class="container-1">
+  <center>
+<form name="loginBox" action="/search" method="post">
+      <input type="search" id="search" placeholder="Search..." />
+<input type="submit" 
+       style="position: absolute; left: -9999px; width: 1px; height: 1px;"
+       tabindex="-1" />
+</form>
+      </center>
+  </div>
+</div>
+
 
   <ul class="post-list">
     {% for key in data.keys() %}
@@ -29,7 +45,14 @@
           <span class="post-link"><a  href="javascript:ReverseDisplay('{{ key }}')">{{ data[key]['title'] }}</a> </span>
         </h2>
 		<div id="{{ key }}"style="display:none;">
-		<p>{{ data[key]['selftext'] }}</p>
+		{{ data[key]['selftext'] | safe }}
+    <hr>
+    <hr>
+    {% for comment in data[key]['comments'] %}
+    {{ comment['body'] | safe }}    
+    <hr>
+    {% endfor %}
+
 		</div>
       </li>
 {% endfor %}
