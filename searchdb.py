@@ -16,7 +16,7 @@ def chunks(l, n):
         yield l[i:i+n]
 
 def getComments_worker(ids):
-    conn = sqlite3.connect("ask.db")
+    conn = sqlite3.connect("../ask.db")
     c = conn.cursor()
     comments = []
     if len(ids[0])>1:
@@ -45,7 +45,7 @@ def getComments_worker(ids):
 
 
 def search_normal(search_text):
-    conn = sqlite3.connect("ask.db")
+    conn = sqlite3.connect("../ask.db")
 
     start = time.time()
     datas = {}
@@ -133,7 +133,7 @@ def search_normal(search_text):
     return datas2
 
 def inverse_search(search_text):
-    conn = sqlite3.connect("ask.db")
+    conn = sqlite3.connect("../ask.db")
 
     start = time.time()
     c = conn.cursor()

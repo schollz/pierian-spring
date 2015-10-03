@@ -28,14 +28,28 @@ ups
 downs
 
 """
+def file_len(fname):
+    with open(fname) as f:
+        for i, l in enumerate(f):
+            pass
+    return i + 1
+
+def update_progress(progress,total,start):
+    try:
+        speed = round(1/((time.time()-start)/progress))
+    except:
+        speed = 0
+    sys.stdout.write('\r[{0}] {1}% {2} per/s'.format('#'*(progress*10/total), progress*100/total,speed))
+    sys.stdout.flush()
 
 subreddit_texts = ['python','todayilearned','everythingscience','askscience','askreddit','science','explainlikeimfive']
 
 for subreddit_text in subreddit_texts:
-    print "working on " + subreddit_text
+    print "\n\nworking on " + subreddit_text
     conn = sqlite3.connect("ask.db")
     c = conn.cursor()
     c.execute('PRAGMA synchronous = OFF')
+    c.execute('PRAGMA journal_mode  = MEMORY')
     try:
         c.execute("""CREATE TABLE submissions(
             rowid INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -51,19 +65,7 @@ for subreddit_text in subreddit_texts:
     except:
         print "Table already exists"
 
-    def file_len(fname):
-        with open(fname) as f:
-            for i, l in enumerate(f):
-                pass
-        return i + 1
 
-    def update_progress(progress,total,start):
-        try:
-            speed = round(1/((time.time()-start)/progress))
-        except:
-            speed = 0
-        sys.stdout.write('\r[{0}] {1}% {2} per/s'.format('#'*(progress*10/total), progress*100/total,speed))
-        sys.stdout.flush()
 
     numLines = file_len('reddit_submissions/' + subreddit_text + '.json')
     print numLines
@@ -75,23 +77,27 @@ for subreddit_text in subreddit_texts:
     cmd2 = """INSERT INTO sub VALUES (?,?)"""
     tuples = []
     tuples2 = []
+    num = 0
     with open('reddit_submissions/' + subreddit_text + '.json','r') as f:
         for line in f:
             i+=1
-            update_progress(i,numLines,start)
+            if i%10000:
+                update_progress(i,numLines,start)
             line = line.replace("'","''")
             try:
                 a = json.loads(line)
             except:
                 a = None
-            if a != None and a['ups']>5:
+            if a != None and a['ups']>10:
                 tuples.append((a['id'],a['subreddit'],a['created_utc'],a['ups'],a['downs'],a['url']))
                 tuples2.append((a['title'],a['selftext']))
-                if i % 100000 == 0:
+                num+=1
+                if num == 100000:
                     c.executemany(cmd,tuples)
                     tuples = []
                     c.executemany(cmd2,tuples2)
                     tuples2 = []
+                    num = 0
     if len(tuples)>0:
         c.executemany(cmd,tuples)
         c.executemany(cmd2,tuples2)
@@ -123,10 +129,12 @@ for subreddit_text in subreddit_texts:
     cmd2 = """INSERT INTO com VALUES (?)"""
     tuples = []
     tuples2 = []
+    num = 0
     with open('reddit_data/' + subreddit_text + '.json','r') as f:
         for line in f:
             i+=1
-            update_progress(i,numLines,start)
+            if i%10000:
+                update_progress(i,numLines,start)
             line = line.replace("'","''")
             try:
                 a = json.loads(line)
@@ -134,14 +142,16 @@ for subreddit_text in subreddit_texts:
                 a['parent_id'] = a['parent_id'].split('_')[1]
             except:
                 a = None
-            if a != None and a['ups'] > 1:
+            if a != None and a['ups'] > 3:
                 tuples.append((a['link_id'],a['parent_id'],a['subreddit'],a['ups'],a['downs']))
                 tuples2.append((a['body'],))
-                if i % 100000 == 0:
+                num+=1
+                if num == 100000:
                     c.executemany(cmd,tuples)
                     tuples = []
                     c.executemany(cmd2,tuples2)
                     tuples2 = []
+                    num = 0
     if len(tuples)>0:
         c.executemany(cmd,tuples)
         c.executemany(cmd2,tuples2)
@@ -157,3 +167,5 @@ c.execute('CREATE INDEX idx1 ON comments (link_id,ups)')
 c.execute('DROP INDEX IF EXISTS idx2')
 c.execute('CREATE INDEX idx2 ON submissions (id,ups)')
 conn.close()
+
+
