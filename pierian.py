@@ -28,8 +28,4 @@ def search():
 
 
 if __name__ == "__main__":
-    while True:
-        try:
-            app.run(host='0.0.0.0',port=8012)
-        except:
-            pass
+    app.run(host='0.0.0.0',port=8012)
